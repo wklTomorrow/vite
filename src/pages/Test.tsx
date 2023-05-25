@@ -1,6 +1,9 @@
 import { observer } from 'mobx-react-lite';
 import React from 'react';
 import { useStore } from '@src/stores';
+import './test.css';
+import './test.less';
+import styles from './test.module.less';
 
 /**
  *
@@ -10,8 +13,9 @@ const Test = () => {
   const { counterStore } = useStore();
   return (
     <>
-      hello world
-      {counterStore.count}
+      <div className={styles.red}>hello world</div>
+      <div className="yellow">yello world</div>
+      <div className="blue"> {counterStore.count}</div>
       <button
         onClick={() => {
           counterStore.increase();
