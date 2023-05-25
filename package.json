@@ -4,7 +4,9 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "lint:prettier": "prettier --check ."
+    "lint:prettier": "prettier --check .",
+    "ci": "commit",
+    "cz": "git-cz"
   },
   "dependencies": {
     "@vitejs/plugin-basic-ssl": "^1.0.1",
