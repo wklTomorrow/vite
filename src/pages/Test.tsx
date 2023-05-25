@@ -2,6 +2,10 @@ import { observer } from 'mobx-react-lite';
 import React from 'react';
 import { useStore } from '@src/stores';
 
+/**
+ *
+ * @returns use mobx
+ */
 const Test = () => {
   const { counterStore } = useStore();
   return (
