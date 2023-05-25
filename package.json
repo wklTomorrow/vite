@@ -5,6 +5,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "lint:prettier": "prettier --check .",
+    "prepare": "husky install",
     "ci": "commit",
     "cz": "git-cz"
   },
