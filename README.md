@@ -3,7 +3,7 @@
 ### 开发前注意事项
 
 1. 本地配置 host 文件
-   - 127.0.0.1 local.zhenguanyu.com
+   - 127.0.0.1 local.com
 
 ### 本地开发
 
