@@ -17,10 +17,10 @@ export default defineConfig(() => {
       port: 3000,
       strictPort: true,
       https: true,
-      host: `local.zhenguanyu.com`,
+      host: `local`,
       proxy: {
         '^.*api': {
-          target: `https://conan.zhenguanyu.com`,
+          target: `https://127.0.0.1:3000`,
           changeOrigin: true,
         },
       },
